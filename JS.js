@@ -11,7 +11,6 @@ function printLogo() {
 	}
 	
 	else {
-		document.getElementById('logo').innerHTML = '';
 		function repeatStars(st){
 			return '*'.repeat(st);
 		}
